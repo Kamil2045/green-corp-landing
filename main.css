@@ -55,7 +55,7 @@ align-items: center;
 padding-top: 115px;
 padding-bottom: 115px;
 
-background: url("file:///C:\JS/green-corp-landing/img/back.png");
+background: url("/green-corp-landing/img/back.png");
 background-position: center;
 background-size: cover;
 
