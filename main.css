@@ -218,6 +218,71 @@ margin-top: 20px;
   color: #ff7039;
 }
 
+/* 10.01.23 */
+
+.promo {
+  display: flex;
+}
+
+.promo__image {
+  background-image: url("/green-corp-landing/img/promo.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  flex-shrink: 0;
+}
+
+.promo__right {
+  background: #dd5f26;
+  padding: 160px 60px
+}
+
+.promo__card {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 25px;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+
+
+}
+
+.promo__card p::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ec6b29;
+  margin-right: 10px;
+}
+
+.promo__card p {
+  opacity: 80%;
+
+}
+
+.promo__card button {
+
+  background-color: #107b1c;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+.promo__button {
+  display: flex;
+  justify-content: center;
+}
+
+.promo__card button i {
+  font-size: 15px;
+  margin-left: 5px;
+
+}
+
 .form__container {
   width: 550px;
 }
@@ -384,7 +449,7 @@ footer {
 }
 
 @media (max-width: 720px) {
-  header {
+  .header {
       padding: 10px;
   }
 
@@ -392,7 +457,7 @@ footer {
       height: 20px;
   }
 
-  header a {
+  .header a {
       margin-right: 10px;
   }
 
@@ -423,7 +488,7 @@ footer {
       font-size: 36px;
   }
 
-  footer {
+  .footer {
       padding: 50px 10px;
   }
 
